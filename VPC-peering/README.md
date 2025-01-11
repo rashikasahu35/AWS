@@ -7,7 +7,7 @@
 ## Steps:
 1. **Created VPCs and Instances:** Set up three VPCs (Finance, Marketing, Developer) and deployed an EC2 instance in each.
 <div style="display: flex; gap: 10px; justify-content: center;">
-<img width="500" alt="image" src="https://github.com/user-attachments/assets/54a4184e-0a48-4383-b051-cc8534ff69ed">
+<img width="500" height="300" alt="image" src="https://github.com/user-attachments/assets/54a4184e-0a48-4383-b051-cc8534ff69ed">
 <img width="500" alt="image" src="https://github.com/user-attachments/assets/d11912a9-9231-4b3a-90c4-40f6dea0034a">
 </div>
 
