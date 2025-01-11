@@ -26,8 +26,8 @@ A fully automated CI/CD pipeline was implemented to deploy a Python application 
 4. **Build Application with CodeBuild:** Configure a buildspec.yml file to build and push the Docker image to Docker Hub.
 
 <div style="display: flex; gap: 5px; justify-content: center;">
-<img width="500" height="200" alt="image" src="https://github.com/user-attachments/assets/ad05a29e-7a7a-42fd-900c-921c2676e35e">
-<img width="500" height="200" alt="image" src="https://github.com/user-attachments/assets/3402d1f3-accf-4109-b71c-1226ce16621a">
+<img width="500" height="300" alt="image" src="https://github.com/user-attachments/assets/ad05a29e-7a7a-42fd-900c-921c2676e35e">
+<img width="500" height="300" alt="image" src="https://github.com/user-attachments/assets/3402d1f3-accf-4109-b71c-1226ce16621a">
 </div>
 
 5. **Set Up CodeDeploy:** Create a CodeDeploy application and deployment group for EC2 instances. Use appspec.yml and deployment scripts to manage Docker containers.
@@ -37,6 +37,6 @@ A fully automated CI/CD pipeline was implemented to deploy a Python application 
 6. **Automate process with CodePipeline:** Automate the CI/CD process with CodePipeline by integrating CodeBuild, and CodeDeploy.
 
 <div style="display: flex; flex-direction:column; gap: 5px; justify-content: center;">
-<img width="650" height="200" alt="image" src="https://github.com/user-attachments/assets/ffd10339-e1cc-481f-95d4-59d963356457">
-<img width="650" height="200" alt="image" src="https://github.com/user-attachments/assets/d65410d2-ba19-495f-a88c-359048f702b4">
+<img width="650" alt="image" src="https://github.com/user-attachments/assets/ffd10339-e1cc-481f-95d4-59d963356457">
+<img width="650"  alt="image" src="https://github.com/user-attachments/assets/d65410d2-ba19-495f-a88c-359048f702b4">
 </div>
