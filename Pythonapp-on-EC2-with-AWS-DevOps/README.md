@@ -10,7 +10,7 @@ A fully automated CI/CD pipeline was implemented to deploy a Python application 
 - **Docker:** Containerizing the Python application.
 
 ## Architecture Diagram
-<img width="750" alt="image" src="https://github.com/user-attachments/assets/16c0588e-4055-4013-adc9-897285ec6216">
+<img width="800" alt="image" src="https://github.com/user-attachments/assets/16c0588e-4055-4013-adc9-897285ec6216">
 
 ## Steps
 1. **Set Up EC2 Instance:** Provision an EC2 instance, install Docker, and configure security groups. 
@@ -37,6 +37,6 @@ A fully automated CI/CD pipeline was implemented to deploy a Python application 
 6. **Automate process with CodePipeline:** Automate the CI/CD process with CodePipeline by integrating CodeBuild, and CodeDeploy.
 
 <div style="display: flex; flex-direction:column; gap: 5px; justify-content: center;">
-<img width="500" height="200" alt="image" src="https://github.com/user-attachments/assets/ffd10339-e1cc-481f-95d4-59d963356457">
-<img width="500" height="200" alt="image" src="https://github.com/user-attachments/assets/d65410d2-ba19-495f-a88c-359048f702b4">
+<img width="650" height="200" alt="image" src="https://github.com/user-attachments/assets/ffd10339-e1cc-481f-95d4-59d963356457">
+<img width="650" height="200" alt="image" src="https://github.com/user-attachments/assets/d65410d2-ba19-495f-a88c-359048f702b4">
 </div>
