@@ -36,7 +36,7 @@ A fully automated CI/CD pipeline was implemented to deploy a Python application 
 
 6. **Automate process with CodePipeline:** Automate the CI/CD process with CodePipeline by integrating CodeBuild, and CodeDeploy.
 
-<div style="display: flex; gap: 5px; justify-content: center;">
+<div style="display: flex; flex-direction:column; gap: 5px; justify-content: center;">
 <img width="500" height="200" alt="image" src="https://github.com/user-attachments/assets/ffd10339-e1cc-481f-95d4-59d963356457">
 <img width="500" height="200" alt="image" src="https://github.com/user-attachments/assets/d65410d2-ba19-495f-a88c-359048f702b4">
 </div>
