@@ -15,21 +15,22 @@ This project sets up an AWS architecture that ensures high availability and scal
 ## Deployment Steps
 Follow these steps to deploy this architecture on AWS:
 
-### Step 1: Create and Configure a Virtual Machine (VM)
-- Launch an EC2 instance and configure it with the required application and dependencies.
-- Install the necessary software and configure the application to run.
-- Once configured, create an Amazon Machine Image (AMI) from the instance.
-<img width="750" alt="image" src="https://github.com/user-attachments/assets/20143101-a854-4fff-8a15-91a7750b94d0">
-
-### Step 2: Create a Virtual Private Cloud (VPC)
+### Step 1: Create a Virtual Private Cloud (VPC)
 - Create a VPC with a suitable CIDR block.
 - Configure subnets across multiple Availability Zones.
 - Create an Internet Gateway and attach it to the VPC.
 - Set up route tables and associate them with the subnets.
 <img width="750" alt="image" src="https://github.com/user-attachments/assets/282c0a06-7a0f-4c01-a0ab-be758a82b14c">
 
-### Step 3: Create Security Groups
+### Step 2: Create Security Groups
 - Create security groups for EC2 instances and the Load Balancer in the created vpc.
+<img width="750" alt="image" src="https://github.com/user-attachments/assets/10fafc0a-225f-4851-aaaf-ccd36d251d96">
+
+### Step 3: Create and Configure a Virtual Machine (VM)
+- Launch an EC2 instance and configure it with the required application and dependencies.
+- Install the necessary software and configure the application to run.
+- Once configured, create an Amazon Machine Image (AMI) from the instance.
+<img width="750" alt="image" src="https://github.com/user-attachments/assets/20143101-a854-4fff-8a15-91a7750b94d0">
 
 ### Step 4: Create an Auto Scaling Group
 - Define a launch template using the previously created AMI.
