@@ -2,7 +2,7 @@
 This repository contains multiple AWS projects demonstrating best practices in cloud deployment, automation, and networking. Each project showcases different AWS services, including S3, EC2, CloudFront, Auto Scaling, CI/CD pipelines with GitHub Actions, Terraform, and VPC Peering. Whether it's deploying a React app, setting up a scalable Python application, or configuring secure network communication, this repo serves as a hands-on guide for AWS cloud solutions. 🚀
 
 
-## 1.AWS Auto Scaling and Load Balancing Deployment
+## 1. AWS Auto Scaling and Load Balancing Deployment
 This project sets up an AWS architecture that ensures high availability and scalability by using an Elastic Load Balancer (ELB) and an Auto Scaling Group (ASG) to manage EC2 instances across multiple Availability Zones. 
 
 ### Key Components:
@@ -17,7 +17,7 @@ This project sets up an AWS architecture that ensures high availability and scal
 
 ---
 
-## 2.Portfolio Website Deployment on AWS with S3 and CloudFront
+## 2. Portfolio Website Deployment on AWS with S3 and CloudFront
 This project involves deploying a static portfolio website using AWS services, ensuring high availability, scalability, and security. The website is hosted on Amazon S3 as a static site and delivered globally through Amazon CloudFront for optimized performance and reduced latency.
 <img width="750" alt="image" src="https://github.com/user-attachments/assets/a8ac0262-f31d-41c6-8f33-6085bfadd393">
 
@@ -32,10 +32,10 @@ This project involves deploying a static portfolio website using AWS services, e
 
 --- 
 
-## 3.Python Application on AWS EC2 using AWS DevOps Services
+## 3. Python Application on AWS EC2 using AWS DevOps Services
 A fully automated CI/CD pipeline to deploy a Python application on an AWS EC2 instance using AWS DevOps services: CodeDeploy, and CodePipeline. The pipeline includes building a Docker image, securely managing credentials, and deploying the application as a container.
 
-### Key Components
+### Key Components:
 - **AWS EC2:** Hosting the Python application.
 - **AWS CodePipeline:** Automating the CI/CD process.
 - **AWS CodeBuild:** Building the Docker image.
@@ -48,7 +48,7 @@ A fully automated CI/CD pipeline to deploy a Python application on an AWS EC2 in
 
 ---
 
-## 4.React App Deployment on AWS EC2 using GitHub Actions and Terraform
+## 4. React App Deployment on AWS EC2 using GitHub Actions and Terraform
 This project involves deploying a React application on AWS EC2 using Infrastructure as Code (IaC) with Terraform and automating the deployment process with GitHub Actions. The application is containerized using Docker and stored in AWS Elastic Container Registry (ECR).
 
 ### Key Components:
