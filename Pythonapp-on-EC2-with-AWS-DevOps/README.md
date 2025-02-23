@@ -1,5 +1,5 @@
 # Python Application on AWS EC2 using AWS DevOps Services
-A fully automated CI/CD pipeline was implemented to deploy a Python application on an AWS EC2 instance using AWS DevOps services such as CodeBuild, CodeDeploy, and CodePipeline. The pipeline includes building a Docker image, managing credentials securely, and deploying the application as a Docker container.
+A fully automated CI/CD pipeline was implemented to deploy a Python application on an AWS EC2 instance using AWS DevOps services such as CodeBuild, CodeDeploy, and CodePipeline. The pipeline includes building a Docker image, securely managing credentials, and deploying the application as a container.
 
 ## Services Used
 - **AWS EC2:** Hosting the Python application.
@@ -26,6 +26,7 @@ A fully automated CI/CD pipeline was implemented to deploy a Python application 
 4. **Build Application with CodeBuild:** Configure a buildspec.yml file to build and push the Docker image to Docker Hub.
 
 <div style="display: flex; gap: 5px; justify-content: center;">
+<img width="500" height="300" alt="image" src="https://github.com/user-attachments/assets/d11d23b3-95be-4308-ba5d-8a414d5066fa">
 <img width="500" height="300" alt="image" src="https://github.com/user-attachments/assets/ad05a29e-7a7a-42fd-900c-921c2676e35e">
 <img width="500" height="300" alt="image" src="https://github.com/user-attachments/assets/3402d1f3-accf-4109-b71c-1226ce16621a">
 </div>
