@@ -37,8 +37,8 @@ Follow these steps to deploy this architecture on AWS:
 - Set desired, minimum, and maximum instance counts.
 - Distribute instances across multiple Availability Zones.
 <div style="display: flex; gap: 10px; justify-content: center;">
-<img width="550" alt="image" src="https://github.com/user-attachments/assets/2c85fe99-5f23-4cc9-9d6a-476e665e1c67">
-<img width="550" alt="image" src="https://github.com/user-attachments/assets/0bfffa2e-e257-469b-9f46-86f2707edd3d">
+<img width="500" alt="image" src="https://github.com/user-attachments/assets/2c85fe99-5f23-4cc9-9d6a-476e665e1c67">
+<img width="500" alt="image" src="https://github.com/user-attachments/assets/0bfffa2e-e257-469b-9f46-86f2707edd3d">
 </div>
 
 ### Step 5: Deploy an Elastic Load Balancer (ELB)
@@ -57,8 +57,8 @@ Follow these steps to deploy this architecture on AWS:
 - Access the application via the browser using the Load Balancer's URL.
 - Monitor performance and scaling activities using AWS CloudWatch.
 <div style="display: flex; gap: 10px; justify-content: center;">
-<img width="750" alt="image" src="https://github.com/user-attachments/assets/463880e8-8c0c-44d4-a89d-2c1a5708ab9b">
-<img width="750" alt="image" src="https://github.com/user-attachments/assets/d1c315f5-5f2b-4def-b74f-3ea456570071">
+<img width="500" alt="image" src="https://github.com/user-attachments/assets/463880e8-8c0c-44d4-a89d-2c1a5708ab9b">
+<img width="500" alt="image" src="https://github.com/user-attachments/assets/d1c315f5-5f2b-4def-b74f-3ea456570071">
 </div>
 
 
