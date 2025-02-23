@@ -57,8 +57,8 @@ Follow these steps to deploy this architecture on AWS:
 - Access the application via the browser using the Load Balancer's URL.
 - Monitor performance and scaling activities using AWS CloudWatch.
 <div style="display: flex; gap: 10px; justify-content: center;">
-<img width="500" height="200" alt="image" src="https://github.com/user-attachments/assets/463880e8-8c0c-44d4-a89d-2c1a5708ab9b">
-<img width="500" height="200"  alt="image" src="https://github.com/user-attachments/assets/d1c315f5-5f2b-4def-b74f-3ea456570071">
+<img width="500" alt="image" src="https://github.com/user-attachments/assets/463880e8-8c0c-44d4-a89d-2c1a5708ab9b">
+<img width="500"  alt="image" src="https://github.com/user-attachments/assets/d1c315f5-5f2b-4def-b74f-3ea456570071">
 </div>
 
 
